@@ -259,6 +259,10 @@ body {
     gap: 70px;
 }
 
+.card-container a{
+    text-decoration: none;
+}
+
 .card {
     width: 400px;
     height: auto;
