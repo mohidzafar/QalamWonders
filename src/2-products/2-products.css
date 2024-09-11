@@ -11,7 +11,7 @@ body {
 .background {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(..//2-products/texture-oil-painting-canvas-background-displaying-captivating-abstract-paint_9905937.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(..//2-products/images/texture-oil-painting-canvas-background-displaying-captivating-abstract-paint_9905937.jpg);
     background-size: cover;
     background-position: center;
     position: relative; 
