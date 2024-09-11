@@ -10,7 +10,7 @@ body {
 .background {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(/home/umair/Downloads/islamic-painting-2560x1440-15108.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(..//build/islamic-painting-2560x1440-15108.jpg);
     background-size: cover;
     background-position: center;
     position: relative; 
