@@ -174,12 +174,6 @@ body {
     position: relative;
 }
 
-.footer-col h4:hover {
-    color: #ffffff;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
 .footer-col ul {
     list-style: none;
     padding: 0;
