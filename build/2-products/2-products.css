@@ -175,7 +175,8 @@ body {
 }
 
 .footer-col h4:hover {
-    color: #8a05ffef;
+    color: #ffffff;
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -198,7 +199,7 @@ body {
 }
 
 .footer-col ul li a:hover {
-    color: #8a05ffef;
+    color: #fff;
     padding-left: 10px;
     font-weight: bold;
 }
