@@ -148,8 +148,8 @@ button:hover {
 
 .row {
     display: flex;
-    justify-content: space-between; /* Adjust columns spacing evenly */
-    align-items: center; /* Vertically align the items */
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
