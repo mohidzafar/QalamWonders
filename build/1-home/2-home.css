@@ -239,33 +239,3 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
-
-@media (max-width: 1850px) {
-    .navbar {
-        padding: 15px 8%;
-        transition: 0.3s;
-    }
-    .content {
-        padding: 0 8%;
-        transition: 0.3s;
-    }
-    .footer {
-        left: 8%;
-        transition: 0.3s;
-    }
-}
-
-@media (max-width: 1370px) {
-    .navbar {
-        padding: 15px 8%;
-        transition: 0.3s;
-    }
-    .content {
-        padding: 0 8%;
-        transition: 0.3s;
-    }
-    .footer {
-        left: 8%;
-        transition: 0.3s;
-    }
-}
