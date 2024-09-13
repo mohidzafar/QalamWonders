@@ -129,6 +129,7 @@ body {
     background-color: #fff;
     color: #8a05ffef;
     transition: 0.6s;
+    transform: translateY(-5px);
 }
 
 .footer {
@@ -239,3 +240,9 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+.content-btn {
+    animation: 2s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
