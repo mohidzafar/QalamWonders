@@ -62,12 +62,12 @@ body {
     background-color: #8a05ffef;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .sign-btn:hover {
     background-color: #fff;
     color: #8a05ffef;
-    transition: 0.6s;
 }
 
 .navbar ul li a:active {
@@ -83,11 +83,11 @@ body {
     position: absolute;
     left: 0;
     bottom: -10px;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar ul li a:hover::after {
     width: 100%;
-    transition: 0.6s;
 }
 
 .content {
@@ -123,12 +123,13 @@ body {
     background: #8a05ffef;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .content-btn:hover {
     background-color: #fff;
     color: #8a05ffef;
-    transition: 0.6s;
+    transform: translateY(-5px);
 }
 
 .footer {

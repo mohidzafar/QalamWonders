@@ -64,13 +64,13 @@ body {
     color: #fff;
     cursor: pointer;
     font-size: larger;
+    transition: all 0.3s ease-in-out;
 }
 
 .sign-btn:hover {
     background: transparent;
     color: #fff;
     border: 2px  solid #fff;
-    transition: 0.6s;
 }
 
 .navbar ul li a:active {
@@ -86,11 +86,11 @@ body {
     position: absolute;
     left: 0;
     bottom: -10px;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar ul li a:hover::after {
     width: 100%;
-    transition: 0.6s;
 }
 
 .content {
@@ -126,12 +126,13 @@ body {
     background: #8a05ffef;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .content-btn:hover {
     background-color: #fff;
     color: #8a05ffef;
-    transition: 0.6s;
+    transform: translateY(-5px);
 }
 
 .footer {
@@ -261,8 +262,13 @@ body {
     background-color: #141414ec;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin: 20px;
+    box-shadow: 0px 2.5px 25px rgba(0, 0, 0, 0.759);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0px 5px 50px rgb(0, 0, 0);
+    transform: translateY(-3px);
 }
 
 .card img {
@@ -305,12 +311,12 @@ body {
     background: #8a05ffef;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .cart-btn:hover {
     border: 2px solid #fff;
     background-color: #fff;
     color: #8a05ffef;
-    transition: 0.3s;
+    transform: translateY(-2px);
 }
-
