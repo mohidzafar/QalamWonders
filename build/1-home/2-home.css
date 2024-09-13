@@ -128,7 +128,7 @@ body {
 .content-btn:hover {
     background-color: #fff;
     color: #8a05ffef;
-    transition: 0.6s;
+    transition: 0.3s;
     transform: translateY(-5px);
 }
 
