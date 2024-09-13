@@ -123,13 +123,13 @@ body {
     background: #8a05ffef;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .content-btn:hover {
     background-color: #fff;
     color: #8a05ffef;
     transform: translateY(-5px);
-    transition: 0.3;
 }
 
 .footer {
