@@ -20,7 +20,6 @@ body {
 .navbar {
     width: 85%;
     margin: auto;
-    padding: 35px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,14 +42,14 @@ body {
     margin-left: 15px;
 }
 
-.navbar ul li {
+.links ul li {
     list-style: none;
     display: inline-block;
     margin: 0 18px;
     position: relative;
 }
 
-.navbar ul li a {
+.links ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -71,12 +70,12 @@ body {
     color: #8a05ffef;
 }
 
-.navbar ul li a:active {
+.links ul li a:active {
     text-decoration: none;
     color: #8a05ffef;
 }
 
-.navbar ul li a::after {
+.links ul li a::after {
     content: '';
     height: 3px;
     width: 0;
@@ -87,7 +86,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.navbar ul li a:hover::after {
+.links ul li a:hover::after {
     width: 100%;   
 }
 
