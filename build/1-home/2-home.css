@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #8a05ffef;
+    background-color: #ffffff;
     cursor: default;
 }
 
@@ -217,7 +217,8 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     font-size: 20px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    /*-color: 0.3s ease;*/
 }
 
 .social ul li:hover {
@@ -372,3 +373,4 @@ body {
                 5px 5px 15px rgba(0, 0, 0, 0.616)
                 -5px -5px 15px rgb(255, 255, 255);
 }
+
